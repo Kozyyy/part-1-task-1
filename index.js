@@ -30,9 +30,9 @@ ws.onopen = function (e) {
     console.log('open', e);
     ws.send(JSON.stringify({
         type: 'hi',
-        mode: 'test',
-        repo: 'test',
-        name: 'test'
+        mode: 'complete',
+        repo: 'https://github.com/Kozyyy/part-1-task-1/',
+        name: 'Kozyyy'
     }));
     
     //console.log(deepEqual(obj1, obj2))
